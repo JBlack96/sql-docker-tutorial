@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  test-database:
+    build: .
+    ports:
+      - "1433:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Password1!
+      - TZ=UTC
+    volumes:
+      - database-data:/var/opt/mssql
+
+volumes:
+  database-data:
