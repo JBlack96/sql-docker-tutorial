@@ -12,7 +12,7 @@ By default you will need to provide the following details for your connection st
 
 - Server Name => `127.0.0.1,1433` <--- (localhost and we are exposing the instance of mssql via port 1433)
 - Username => `sa`
-- Password => `Password!1`
+- Password => `Password1!`
 
 All of which can be altered based on your user preference in the `docker-compose.yml`
 

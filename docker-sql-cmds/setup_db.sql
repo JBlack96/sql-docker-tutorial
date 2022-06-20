@@ -1,0 +1,3 @@
+BEGIN
+CREATE DATABASE TitanDummy;
+END

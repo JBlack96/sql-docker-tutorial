@@ -9,7 +9,7 @@ services:
       - SA_PASSWORD=Password1!
       - TZ=UTC
     volumes:
-      - database-data:/var/opt/mssql
+      - database-data:/var/opt/mssql2
 
 volumes:
   database-data:
